@@ -1,0 +1,25 @@
+#container {
+    margin: 0px auto;
+    width: 700px;
+}
+
+.day {
+    width: 100px;
+    height: 100px;
+    outline: 1px solid #b4b4b4;
+    float: left;
+    line-height: 88px;
+    text-align: center;
+    font-size: 50px;
+}
+
+#menu {
+    height: 306px;
+    width: 150px;
+    padding-left: 35px;
+    float: left;
+}
+
+.hidden {
+    display: none;
+}
