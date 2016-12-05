@@ -3,7 +3,20 @@
     width: 700px;
 }
 
-.day {
+#month, #month * {
+    box-sizing: content-box;
+}
+
+#month {
+    width: 700px;
+    height: 300px;
+    padding: 0;
+    margin: 0;
+    float: left;
+    outline: 1px solid #b4b4b4;
+}
+
+#month .day {
     width: 100px;
     height: 100px;
     outline: 1px solid #b4b4b4;
@@ -22,4 +35,41 @@
 
 .hidden {
     display: none;
+}
+
+#DaysOfTheWeek {
+    color: green;
+}
+
+#Sunday {
+    margin-left: 25px;
+}
+
+#Monday {
+    margin-left: 47px;
+}
+
+#Tuesday {
+    margin-left: 48px;
+}
+
+#Wednesday {
+    margin-left: 30px;
+}
+
+#Thursday {
+    margin-left: 30px;
+}
+
+#Friday {
+    margin-left: 46px;
+}
+
+#Saturday {
+    margin-left: 50px;
+}
+
+#year {
+    text-align: center;
+    font-size: 25pt;
 }

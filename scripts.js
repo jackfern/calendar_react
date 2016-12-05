@@ -12,6 +12,13 @@ var Month = React.createClass({
     },
     render: function() {
         return <div>
+            <div id="year">September 2016</div>
+            <br />
+            <div id="DaysOfTheWeek">
+            <span id="Sunday">Sunday</span> <span id="Monday">Monday</span>
+            <span id="Tuesday">Tuesday</span> <span id="Wednesday">Wednesday</span> <span id="Thursday">Thursday</span>  <span id="Friday">Friday</span>
+            <span id="Saturday">Saturday</span>
+            </div>
             <div id='month'>
                 { this.state.days.map(function(){
                     return (
@@ -23,6 +30,7 @@ var Month = React.createClass({
         </div>;
     }
 });
+
 
     var Day = React.createClass({
         render: function() {
@@ -36,7 +44,7 @@ var Month = React.createClass({
         }
     });
 
-   ReactDOM.render(
-       <Month />,
-       document.getElementById('container')
-   );
+ReactDOM.render(
+   <Month />,
+   document.getElementById('container')
+);
