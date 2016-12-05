@@ -12,7 +12,8 @@ var Month = React.createClass({
     },
     render: function() {
         return <div>
-            <div id="year">September 2016</div>
+            <div id="year">September 2016 </div>
+
             <br />
             <div id="DaysOfTheWeek">
             <span id="Sunday">Sunday</span> <span id="Monday">Monday</span>
