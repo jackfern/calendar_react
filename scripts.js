@@ -12,7 +12,7 @@ var Month = React.createClass({
     },
     render: function() {
         return <div>
-            <div id="year">September 2016 </div>
+            <div id="year"> <span id="leftangle"> <i className="fa fa-angle-left"></i></span> {moment().format("MMMM YYYY")} <span id="rightangle"> <i className="fa fa-angle-right"></i></span></div>
 
             <br />
             <div id="DaysOfTheWeek">
@@ -27,23 +27,17 @@ var Month = React.createClass({
                         );
                 }, this) }
             </div>
-            <Menu />
+
         </div>;
     }
 });
-
 
     var Day = React.createClass({
         render: function() {
             return <div className='day'></div>;
         }
     });
-    //The menu (blue)
-    var Menu = React.createClass({
-        render: function() {
-            return <div id='menu'></div>;
-        }
-    });
+
 
 ReactDOM.render(
    <Month />,

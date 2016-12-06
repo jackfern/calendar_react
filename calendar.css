@@ -73,3 +73,11 @@
     text-align: center;
     font-size: 25pt;
 }
+
+#leftangle {
+    margin-right: 10px;
+}
+
+#rightangle {
+    margin-left: 10px;
+}
