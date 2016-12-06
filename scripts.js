@@ -107,7 +107,7 @@ var Header = React.createClass({
                 'div',
                 { className: 'r-cell r-title' },
                 this.props.monthNames[this.props.month],
-                ' ',
+                <span>&nbsp;</span>,
                 this.props.year
             ),
             React.createElement('div', { className: 'r-cell r-next', onClick: this.props.onNext.bind(this), role: 'button', tabIndex: '0' })
